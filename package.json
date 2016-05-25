@@ -1,0 +1,39 @@
+{
+  "name": "expect-to-enzyme",
+  "version": "0.0.0",
+  "description": "expect-to assertions for working with enzyme",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha -r test/setup.js",
+    "build": "rm -rf dist && babel src -d dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "expect-to",
+    "enzyme",
+    "assertions"
+  ],
+  "author": "Spencer Alger <email@spalger.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@spalger/eslint-config-personal": "^0.4.0",
+    "babel-eslint": "^6.0.4",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "enzyme": "^2.3.0",
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.2",
+    "eslint-plugin-react": "^5.1.1",
+    "expect-to": "^1.0.0",
+    "jsdom": "^9.2.0",
+    "react": "^15.1.0",
+    "react-addons-test-utils": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "dependencies": {
+    "lodash.isequal": "^4.2.0",
+    "lodash.isregexp": "^3.0.5"
+  }
+}

@@ -1,0 +1,4 @@
+---
+extends: "@spalger/personal/react"
+rules:
+  react/prop-types: off
