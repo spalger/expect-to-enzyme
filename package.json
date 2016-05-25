@@ -1,6 +1,6 @@
 {
   "name": "expect-to-enzyme",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "expect-to assertions for working with enzyme",
   "main": "dist/index.js",
   "scripts": {
